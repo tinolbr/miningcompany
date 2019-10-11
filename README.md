@@ -1,0 +1,2 @@
+# miningcompany
+Mining company configurations
