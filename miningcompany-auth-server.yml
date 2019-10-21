@@ -28,9 +28,9 @@ spring:
         data: classpath:/sql/data.sql
         driver-class-name: com.mysql.cj.jdbc.Driver
         password: '1234'
-        platform: mysql
+        platform: mysql&allowPublicKeyRetrieval=true
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
