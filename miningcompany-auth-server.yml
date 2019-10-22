@@ -30,7 +30,7 @@ spring:
         password: '1234'
         platform: mysql&allowPublicKeyRetrieval=true
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost/miningcompany_auth?verifyServerCertificate=false&useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+        url: jdbc:mysql://localhost/miningcompany_auth?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
